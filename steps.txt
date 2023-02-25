@@ -1,0 +1,7 @@
+install virtualenv : pip install --user virtualenv
+create environment named venv : python -m virtualenv venv
+activate environment : cd venv
+                       cd Scripts
+                       .\activate
+
+install necessary libraries 
